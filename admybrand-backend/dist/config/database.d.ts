@@ -1,0 +1,9 @@
+export declare const connectDB: () => Promise<void>;
+export declare const disconnectDB: () => Promise<void>;
+export declare const readData: (filePath: string) => any[];
+export declare const writeData: (filePath: string, data: any[]) => void;
+export declare const getDataPath: () => string;
+export declare const getUsersFile: () => string;
+export declare const getAnalyticsFile: () => string;
+export declare const getCampaignsFile: () => string;
+//# sourceMappingURL=database.d.ts.map
